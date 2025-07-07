@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+        body {
+          font-family: 'Times New Roman', Times, serif, sans-serif;
+          margin: 0;
+        }
+        header, nav, main, footer {
+          padding: 20px;
+        }
+        nav a {
+          margin-right: 15px;
+          text-decoration: none;
+          color: rgb(155, 9, 40);
+        }
+        section {
+          padding: 40px 20px;
+          border-top: 1px solid #ccc;
+        }
+      </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Work">Work</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+</header>
+    <main>
+    <section id="Home">
+        <h1><i>Home</i></h1>
+        <img src="C:\Users\lenovo\Downloads\5885d7db-78e4-436a-a1c6-fab2b0066a9f.jpg" alt="peace" width="25%">
+    </section>
+    <section id="About">
+        <h1><i>About Me</i></h1>
+        <p>I am a passionate learner in web development. I enjoy building clean and functional websites</p>
+        <ul>
+            <h3><strong>My favorites</strong></h3>
+            <li><i>Puppies</i></li>
+            <li><i>Tennis</i></li>
+            <li><i>Learning</i></li>
+        </ul>
+    </section>
+    <section id="Work">
+        <h1><i>My projects</i></h1>
+        <table border="2">
+            <tr>
+                <th>Project</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>My personal card</td>
+                <td><a href="C:\Users\lenovo\Desktop\GOMYCODE\personal card.html" target="_blank" alt="my personal card">click here</a></td>
+            </tr>
+            <tr>
+                <td>Mamma Mia</td>
+                <td><a href="C:\Users\lenovo\Desktop\GOMYCODE\Mamma Mia.html" target="_blank" alt="Mamma Mia">click here</a></td>
+            </tr>
+            <tr>
+                <td>Real Estate</td>
+                <td><a href="C:\Users\lenovo\Desktop\GOMYCODE\real estate.html" target="_blank" alt="real estate">click here</a></td>
+            </tr>
+            <tr>
+                <td>Kawther Khalil</td>
+                <td><a href="C:\Users\lenovo\Desktop\CODE PRO\index.html" target="_blank" alt="kawther Khalil">click here</a></td>
+            </tr>
+        </table>
+    </section>
+    <section id="Resume">
+        <h1><i>My Resume</i></h1>
+        <p>If you wanna check my resume by any chance</p>
+        <a href="C:\Users\lenovo\Desktop\GOMYCODE\MY RESUME.html" target="_blank" alt="my resume"><i>Click Here</i></a>
+    </section>
+    <section id="Contact">
+        <h1><i>Contact Me</i></h1>
+        <form >
+            <label for="name">Name:</label> <br>
+            <input type="text" id="name" > <br>
+        
+            <label for="mail">Email :</label> <br>
+            <input type="email" id="mail" placeholder="example@gmail.com" > <br>
+
+            <label for="message">Message</label> <br>
+            <textarea name="Message" id="message" rows="5" required></textarea>
+        
+            <button type="button" onclick="alert('Your message is sent <3')">Send</button><br>
+            
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+</footer>
+</body>
+</html> 
